@@ -20,6 +20,8 @@ public class TestController {
 		int id = this.userMapper.insert(user);
 		System.out.println(id);
 		System.out.println(22);
+		
+		System.out.println();
 		return String.valueOf(user.getId());
 	}
 
