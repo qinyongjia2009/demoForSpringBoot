@@ -1,0 +1,5 @@
+com\example\demo\entity\User.class
+com\example\demo\controller\TestController.class
+com\example\demo\controller\TestOne.class
+com\example\demo\mapping\UserMapper.class
+com\example\demo\DemoForSpringBootApplication.class

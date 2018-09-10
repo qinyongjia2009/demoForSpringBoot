@@ -1,0 +1,16 @@
+#默认开发环境
+spring:
+  profiles.active: dev
+---
+#开发环境 模拟新一代移动警务三类应用
+spring:
+  profiles: dev
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tedu?useSSL=false
+    username: root
+    password: root
+mybatis:
+  mapper-locations: classpath:mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.example.demo.entity  # 注意：对应实体类的路径
+
